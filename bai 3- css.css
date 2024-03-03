@@ -1,0 +1,90 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  float: left;
+  padding: 10px;
+}
+
+.menu {
+  float: right;
+  padding: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 10px;
+}
+
+.menu a:hover {
+  color: #000;
+}
+
+.banner {
+  height: 200px;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.noi-dung {
+  padding: 20px;
+}
+
+.noi-dung h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.noi-dung p {
+  margin-bottom: 20px;
+}
+
+.noi-dung ul {
+  list-style: none;
+  padding: 0;
+}
+
+.noi-dung ul li {
+  margin-bottom: 10px;
+}
+
+.noi-dung a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+  border: 1px solid #007bff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.noi-dung a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+footer {
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+}

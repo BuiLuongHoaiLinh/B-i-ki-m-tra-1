@@ -1,0 +1,41 @@
+*
+body {
+  background-image: url("https://anhungcoffee.com/wp-content/uploads/2019/09/t%C3%ACm-mua-c%C3%A0-ph%C3%AA-nguy%C3%AAn-ch%E1%BA%A5t.2-1.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  Color: #7FFFD4;
+  
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #000;
+    color: #FF0000;
+    cursor: pointer;
+}
